@@ -9,8 +9,10 @@ const App = () => {
 
      return (
           <>
+          <center>
           <h2>OnTrack</h2>
           <h4>Kal Kare So Aaj Kar, Aaj Kare So Ab</h4>
+          </center>
           <Task/>
           </>     
      );
