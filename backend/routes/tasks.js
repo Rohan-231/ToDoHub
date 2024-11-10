@@ -77,6 +77,25 @@ tasksRouter.get("/:id", async (req, res) => {
 });
 
 
+// tasksRouter.get("/:taskname", async (req, res) => {
+//     try {
+//         const { taskname } = req.params
+//         const onetask = await pool.query("SELECT * FROM tasks WHERE taskcardname = $1", [taskname]);
+//         console.log(onetask)
+//         if (!onetask.rows[0]) {
+//             return res.status(404).json({ message: "task not found !!" })
+//         }
+//         return res.status(200).json({
+//             message: "task received !!",
+//             data: onetask.rows
+//         })
+//     } catch (error) {
+//         console.log("ERROR MESSAGE ::", error.message)
+//         res.status(500).json({ message: "Can't get the task!!" })
+//     }
+// });
+
+
 tasksRouter.put("/:id", async (req, res) => {
     try {
         // validating the input
