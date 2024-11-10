@@ -3,10 +3,13 @@ import { BrowserRouter as Router, Routes, Route, useActionData } from "react-rou
 import "./App.css";
 
 // pages
+<<<<<<< HEAD
 // import Projects from "./pages/Projects/";
 // import PageNotFound from "./pages/PageNotFound/";
 // import ProjectDetails from "./pages/ProjectDetails/";
 
+=======
+>>>>>>> 9bbcaf8684bbd40e0e831a69c329297655842a71
 import Task from "./components/task";
 
 const App = () => {
