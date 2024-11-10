@@ -110,7 +110,7 @@ const Task = () => {
       <div>
       
         <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-        <Addtask settasklist={settasklist}/>
+        <center><Addtask settasklist={settasklist}/></center>
       {/* Edit Task Form */}
       {editTask && (
         <div className="edit-task-form">
