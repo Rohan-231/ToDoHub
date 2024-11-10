@@ -33,7 +33,7 @@ cd todo-app
 
 3. Start the back-end server:
    ```bash
-   npm run start
+   npm start
    ```
    The server should now be running at `http://localhost:5000`.
 
