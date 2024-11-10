@@ -3,11 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useActionData } from "react-rou
 import "./App.css";
 
 // pages
-import Projects from "./pages/Projects/";
-import PageNotFound from "./pages/PageNotFound/";
-import ProjectDetails from "./pages/ProjectDetails/";
 import Task from "./components/task";
-import SearchBar from "./components/searchbar";
 
 const App = () => {
 
